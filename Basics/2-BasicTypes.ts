@@ -4,14 +4,15 @@
     let defineTypeScript: string = "Very Cool";
     
     let unTypedString = "Oops I forgot the type of the variable!"
-    unTypedString = 1;
-    
-    
+    unTypedString = 1;    
     unTypedString = getTypeScriptCoolness();
-    unTypedString = getTypeScriptDefintion();
-    
+    unTypedString = getTypeScriptDefintion();   
     unTypedString = getTypeScriptCoolnessTyped();
-    unTypedString = getTypeScriptDefintionTyped();   
+    unTypedString = getTypeScriptDefintionTyped(); 
+    
+    var anyType : any = "Firstly...I am a string!";
+    anyType = 42;
+    anyType = true;
 })();
 
 
