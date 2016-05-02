@@ -6,7 +6,7 @@
     }
     
     function getAjax(){
-        return new Promise(resolve => setTimeout(resolve, 5000));
+        return new Promise(resolve => setTimeout(() => resolve("Promised Data!"), 5000));
     }
     
     getFromServer();
