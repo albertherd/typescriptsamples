@@ -1,4 +1,19 @@
 (function(){
+    function printDataDoesntWork(msg: string) : void{
+        console.log("Printing string : " + msg);
+    }
+    
+     function printDataDoesntWork(msg: boolean) : void{
+        console.log("Printing boolean : " + msg);
+    }
+    
+     function printDataDoesntWork(msg: number) : void{
+        console.log("Printing number : " + msg);
+    }
+     
+    printDataDoesntWork(42);  
+    
+    
     function printData(msg: string): void;
     function printData(msg: boolean): void;
     function printData(msg: number): void;
@@ -19,4 +34,8 @@
     printData(42);
     printData(true);    
     
+    function overloadMethod(first:string) : string{
+        return first;
+    }
+        
 })();

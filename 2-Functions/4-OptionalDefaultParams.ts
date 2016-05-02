@@ -1,5 +1,5 @@
 (function(){    
-    function getVeryRandomNumber(){
+    function getVeryRandomNumber(): number{
         return 42;
     }
     

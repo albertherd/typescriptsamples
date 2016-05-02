@@ -4,7 +4,7 @@
         console.log(people.join(","));
     }
     
-    function greetPeopleRestParams(...people: string[]){
+    function greetPeopleRestParams(...people: string[])  : void{
         console.log(people.join(","));
     }
     
